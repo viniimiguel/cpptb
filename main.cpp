@@ -1,16 +1,16 @@
 #include <iostream>
 #include "hp.h"
+#include "loot.h"
 
 
 int main()
 {
-    Heal* he1 = new Heal();
+    Mc* mc1 = new Mc();
 
-    he1->getScreen();
 
-    std::cout << "x: " << he1->x << " y: " << he1->y << std::endl;
+    mc1->getPoint();
 
-    he1->mimg();
+    mc1->macroClick();
 
     return 0;
 }
