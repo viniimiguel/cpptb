@@ -3,14 +3,13 @@
 
 #include <iostream>
 #include <Windows.h>
-#include <opencv2/opencv.hpp>
 
 class Heal {
 public:
 	int x;
 	int y;
 	void getScreen();
-	void mimg();
+	void reconhece_heal();
 private:
 };
 
@@ -22,15 +21,9 @@ void Heal::getScreen() {
 	y = altura;
 }
 
-void Heal::mimg() {
-	cv::Mat img = cv::imread("D:/tbt/bt/src/imgs/a.png");
-	if (!img.empty()) {
-		cv::imshow("Window", img);
-		cv::waitKey(0);
-	}
-	else {
-		std::cerr << "imagem nao encontrada" << std::endl;
-	}
+
+void Heal::reconhece_heal() {
+   
 }
 
 
