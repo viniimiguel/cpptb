@@ -5,15 +5,30 @@
 #include <Windows.h>
 #include "wingdi.h"
 #include <Windows.h>
+#include <fstream>
 
 
 class Rec {
 public:
     void recjanela();
-
+    void SendKeyToWindow(HWND hwnd, char key);
+    void SendHotKeyToWindow(HWND hwnd, BYTE virtualkey);
+    void SendDefinitiveKey(HWND hwnd);
 private:
 };
+void Rec::SendHotKeyToWindow(HWND hwnd, BYTE virtualKey) {
+    keybd_event(virtualKey, 0, KEYEVENTF_EXTENDEDKEY, 0);
 
+    keybd_event(virtualKey, 0, KEYEVENTF_KEYUP, 0);
+}
+void Rec::SendKeyToWindow(HWND hwnd, char key){
+    SendMessage(hwnd, WM_CHAR, static_cast<WPARAM>(key), 0);
+}
+void Rec::SendDefinitiveKey(HWND hwnd) {
+    SetForegroundWindow(hwnd);
+    SetWindowPos(hwnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE);
+
+}
 void Rec::recjanela() {
     HWND hwnd = FindWindow(NULL, "Tibia - Tomboy Lover");
 
@@ -23,15 +38,10 @@ void Rec::recjanela() {
     }
     std::cout << "janela encontrada!" << std::endl;
 
-    SetForegroundWindow(hwnd);
-    SetWindowPos(hwnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE);
 
-    Sleep(2000);
-    for (int i = 0; i < 5; i++) {
-        keybd_event(0x50, 0, 0, 0);
-        Sleep(1000);
+    SendHotKeyToWindow(hwnd, 0x50);
 
-    }
+
 
 }
 #endif
