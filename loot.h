@@ -1,9 +1,9 @@
 #ifndef MACRO_H_INCLUDE
 #define MACRO_H_INCLUDE
 
-#include <vector>
 #include <iostream>
 #include <windows.h>
+#include <vector>
 
 class Mouse {
 public:

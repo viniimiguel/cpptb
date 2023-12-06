@@ -23,7 +23,7 @@ void Heal::getScreen() {
 
 
 void Heal::reconhece_heal() {
-   
+
 }
 
 
