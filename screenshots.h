@@ -15,7 +15,9 @@ public:
     void SendKeyToWindow(HWND hwnd, char key);
     void SendHotKeyToWindow(HWND hwnd, BYTE virtualkey);
     void SendDefinitiveKey(HWND hwnd, BYTE htk);
+    void TakeAScreenShot(BYTE htk);
 private:
+    HWND hwnd;
 };
 
 
@@ -33,11 +35,12 @@ void Rec::SendDefinitiveKey(HWND hwnd, BYTE htk) {
     SetForegroundWindow(hwnd);
     SetWindowPos(hwnd, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE);
     SendHotKeyToWindow(hwnd, htk);
+    Sleep(10);
 
 }
 
 void Rec::recjanela() {
-    HWND hwnd = FindWindow(NULL, "Tibia - Tomboy lover");
+    hwnd = FindWindow(NULL, "Tibia - Seila Tabua");
 
     if (!hwnd) {
         std::cout << "janela nao encontrada" << std::endl;
@@ -45,6 +48,11 @@ void Rec::recjanela() {
     }
     std::cout << "janela encontrada!" << std::endl;
 
+
+}
+
+void Rec::TakeAScreenShot(BYTE htk) {
+     SendDefinitiveKey(hwnd, htk);
 }
 
 class Attacks:public Rec {
