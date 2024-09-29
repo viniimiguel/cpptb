@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinicius\\Desktop\\OpenCoding\\tibiaauto\\cpptb\\main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89D4CB64-B18B-421F-8985-D8DF450E7224}|main\\main.vcxproj|C:\\Users\\vinicius\\Desktop\\OpenCoding\\tibiaauto\\cpptb\\main\\main\\cave.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89D4CB64-B18B-421F-8985-D8DF450E7224}|main\\main.vcxproj|solutionrelative:main\\cave.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D4CB64-B18B-421F-8985-D8DF450E7224}|main\\main.vcxproj|C:\\Users\\vinicius\\Desktop\\OpenCoding\\tibiaauto\\cpptb\\main\\main\\cave.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89D4CB64-B18B-421F-8985-D8DF450E7224}|main\\main.vcxproj|solutionrelative:main\\cave.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D4CB64-B18B-421F-8985-D8DF450E7224}|main\\main.vcxproj|C:\\Users\\vinicius\\Desktop\\OpenCoding\\tibiaauto\\cpptb\\main\\main\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89D4CB64-B18B-421F-8985-D8DF450E7224}|main\\main.vcxproj|solutionrelative:main\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D4CB64-B18B-421F-8985-D8DF450E7224}|main\\main.vcxproj|C:\\Users\\vinicius\\Desktop\\OpenCoding\\tibiaauto\\cpptb\\main\\main\\tec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89D4CB64-B18B-421F-8985-D8DF450E7224}|main\\main.vcxproj|solutionrelative:main\\tec.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89D4CB64-B18B-421F-8985-D8DF450E7224}|main\\main.vcxproj|C:\\Users\\vinicius\\Desktop\\OpenCoding\\tibiaauto\\cpptb\\main\\main\\tec.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89D4CB64-B18B-421F-8985-D8DF450E7224}|main\\main.vcxproj|solutionrelative:main\\tec.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cave.h",
+              "DocumentMoniker": "C:\\Users\\vinicius\\Desktop\\OpenCoding\\tibiaauto\\cpptb\\main\\main\\cave.h",
+              "RelativeDocumentMoniker": "main\\cave.h",
+              "ToolTip": "C:\\Users\\vinicius\\Desktop\\OpenCoding\\tibiaauto\\cpptb\\main\\main\\cave.h",
+              "RelativeToolTip": "main\\cave.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-29T22:11:26.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cave.cpp",
+              "DocumentMoniker": "C:\\Users\\vinicius\\Desktop\\OpenCoding\\tibiaauto\\cpptb\\main\\main\\cave.cpp",
+              "RelativeDocumentMoniker": "main\\cave.cpp",
+              "ToolTip": "C:\\Users\\vinicius\\Desktop\\OpenCoding\\tibiaauto\\cpptb\\main\\main\\cave.cpp",
+              "RelativeToolTip": "main\\cave.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-29T22:11:14.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tec.cpp",
+              "DocumentMoniker": "C:\\Users\\vinicius\\Desktop\\OpenCoding\\tibiaauto\\cpptb\\main\\main\\tec.cpp",
+              "RelativeDocumentMoniker": "main\\tec.cpp",
+              "ToolTip": "C:\\Users\\vinicius\\Desktop\\OpenCoding\\tibiaauto\\cpptb\\main\\main\\tec.cpp",
+              "RelativeToolTip": "main\\tec.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-29T21:35:05.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "tec.h",
+              "DocumentMoniker": "C:\\Users\\vinicius\\Desktop\\OpenCoding\\tibiaauto\\cpptb\\main\\main\\tec.h",
+              "RelativeDocumentMoniker": "main\\tec.h",
+              "ToolTip": "C:\\Users\\vinicius\\Desktop\\OpenCoding\\tibiaauto\\cpptb\\main\\main\\tec.h",
+              "RelativeToolTip": "main\\tec.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-29T21:34:47.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\vinicius\\Desktop\\OpenCoding\\tibiaauto\\cpptb\\main\\main\\main.cpp",
+              "RelativeDocumentMoniker": "main\\main.cpp",
+              "ToolTip": "C:\\Users\\vinicius\\Desktop\\OpenCoding\\tibiaauto\\cpptb\\main\\main\\main.cpp",
+              "RelativeToolTip": "main\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-29T21:20:48.248Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
